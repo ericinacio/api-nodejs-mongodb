@@ -1,0 +1,91 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum serviço 2",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/658b2a01f36504e5a35b9a62333
+
+###
+DELETE http://localhost:3000/api/services/658b2a01f36504e5a35b9a62333
+
+
+###
+PUT http://localhost:3000/api/services/658b2878f36504e5a35b9a5c
+Content-Type: application/json
+
+{
+    "name": "TESTE ATUALIZAÇÃO 2",
+    "description": "Alguma descrição",
+    "price": 2500,
+    "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
+}
+
+########################################################################################################################
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Meu Evento 2",
+    "author": "Eric",
+    "description": "Uma festa de aniversário",
+    "budget": 3000,
+    "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg",
+    "services": [
+        {
+            "name": "Algum serviço 1",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
+        },
+        {
+            "name": "Algum serviço 2",
+            "description": "Alguma descrição",
+            "price": 1600,
+            "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/658b3735c0ea1eb9f75928d6
+
+###
+DELETE http://localhost:3000/api/parties/658b36897a3ec3fc8b8a5947
+
+###
+PUT http://localhost:3000/api/parties/658b3735c0ea1eb9f75928d6
+Content-Type: application/json
+
+{
+    "title": "Meu Evento 22",
+    "author": "Eric",
+    "description": "Uma festa de aniversário",
+    "budget": 20000,
+    "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg",
+    "services": [
+        {
+            "name": "Algum serviço 1",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
+        },
+        {
+            "name": "Algum serviço 2",
+            "description": "Alguma descrição",
+            "price": 1600,
+            "image": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
+        }
+    ]
+}
