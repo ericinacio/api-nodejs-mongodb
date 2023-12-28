@@ -11,11 +11,11 @@
 * [Nodemon](https://nodemon.io/)
 
 ## Requisitos
-* **Visual Studio Code**>>Instale no [site oficial](https://code.visualstudio.com/)<<
-* Node.js ***->*** Instale no [site oficial](https://nodejs.org/en)
-* Nodemon ***->*** Instale no [site oficial](https://nodemon.io/)
-* Uma database no MongoDB Atlas ***->*** Crie no [site oficial](https://www.mongodb.com/products/platform/cloud)
-* Extenção Rest Client ***->*** Instale pelo [link](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+* **Visual Studio Code **(Instale no [site oficial](https://code.visualstudio.com/))**
+* Node.js **(Instale no [site oficial](https://nodejs.org/en))**
+* Nodemon **(Instale no [site oficial](https://nodemon.io/))**
+* Uma database no MongoDB Atlas **(Crie no [site oficial](https://www.mongodb.com/products/platform/cloud))**
+* Extenção Rest Client **(Instale pelo [link](https://marketplace.visualstudio.com/items?itemName=humao.rest-client))**
 
 ## Como Instalar
 1. Certifique que tenha todos os requisitos
