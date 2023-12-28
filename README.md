@@ -10,13 +10,19 @@
 * [Dotenv](https://www.npmjs.com/package/dotenv)
 * [Nodemon](https://nodemon.io/)
 
+## Requisitos
+* **Visual Studio Code**>>Instale no [site oficial](https://code.visualstudio.com/)<<
+* Node.js ***->*** Instale no [site oficial](https://nodejs.org/en)
+* Nodemon ***->*** Instale no [site oficial](https://nodemon.io/)
+* Uma database no MongoDB Atlas ***->*** Crie no [site oficial](https://www.mongodb.com/products/platform/cloud)
+* Extenção Rest Client ***->*** Instale pelo [link](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+
 ## Como Instalar
-1. Instale o [Node.js](https://nodejs.org/en)
-2. Instale o [Nodemon](https://nodemon.io/)
-3. Instale as dependências pelo terminal utilizando o comando: **`npm install`**
-4. Crie um banco de dados no site [MongoDB Atlas](https://www.mongodb.com/products/platform/cloud).
-5. Crie uma arquivo **.env** na raiz do projeto
-6. Crie uma variável **DB_CONFIG** dentro do arquivo .env
-7. Copie o link da sua Database do MongoDB Atlas
-8. Cole o link da database na variável **DB_CONFIG**, deve ficar assim: **`DB_CONFIG="Link-Database"`**
-9. Inicie o projeto pelo terminal usando o comando **`npm start`**
+1. Certifique que tenha todos os requisitos
+2. Instale as dependências pelo terminal utilizando o comando: **`npm install`**
+3. Crie uma arquivo **.env** na raiz do projeto
+4. Crie uma variável **DB_CONFIG** dentro do arquivo .env
+5. Copie o link da sua Database do MongoDB Atlas
+6. Cole o link da database na variável **DB_CONFIG**, deve ficar assim: **`DB_CONFIG="Link-Database"`**
+7. Inicie o projeto pelo terminal usando o comando **`npm start`**
+8. Execute um request de dentro do arquivo **`request.rest`**
